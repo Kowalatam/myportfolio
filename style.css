@@ -1,5 +1,7 @@
 /* CSS Variables */
 :root {
+    --dark: #001;
+    --light: #E5E5E5;
     --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
@@ -43,7 +45,7 @@ hr {
     top: 0;
     height: 100vh;
     box-sizing: border-box;
-    background-color: #E5E5E5;
+    background-color: var(--light);
 }
 
 .picture-name img {
@@ -69,13 +71,14 @@ hr {
 
 .main-nav a {
     text-decoration: none;
+    color: var(--dark)
 }
 
 
 /* Main section */
 .main-section {
     background: #FFFCF7;
-    color: #001;
+    color: var(--dark);
 }
 
 .project {
@@ -103,6 +106,6 @@ figure .content {
 
 /* Footer */
 footer {
-    background-color: #001;
-    color: #E5E5E5;
+    background-color: var(--dark);
+    color: var(--light);
 }
