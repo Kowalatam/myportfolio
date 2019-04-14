@@ -23,8 +23,9 @@ img {
 }
 
 h2 {
-    font-size: 2.0rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
+    padding-top: 5rem; 
 }
 
 hr {
@@ -84,6 +85,15 @@ hr {
 
 
 /* Main section */
+.tech-icons {
+    display: grid;
+    grid-column-gap: 10%;
+    grid-row-gap: 25%;
+    grid-template-columns: repeat(3, 15%);
+    padding-left: 27.5%;
+    justify-items: center;
+}
+
 .main-section {
     background: #FFFCF7;
     color: var(--dark);
@@ -91,6 +101,7 @@ hr {
 
 .project {
     padding-bottom: 2rem;
+    
 }
 
 figure {
