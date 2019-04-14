@@ -165,7 +165,7 @@ footer {
     .main-navigation {
         grid-area: main-navigation;
         position: relative;
-        /* margin-bottom: 5rem;  */
+        padding-bottom: 3rem;
         height: auto;
     }
 
