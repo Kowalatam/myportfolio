@@ -1,1 +1,0 @@
-/* Open href of apps/websites on onclick */
