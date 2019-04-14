@@ -150,3 +150,35 @@ footer {
     }
 }
 
+@media (max-width: 600px) {
+    .main-navigation {    /* to stop main-navigation from jumping */
+        box-sizing: border-box;
+    } 
+
+    .wrapper {
+        display: grid;
+        grid-template-areas: 
+        'main-navigation main-navigation'
+        'main-section main-section'; 
+    }
+
+    .main-navigation {
+        grid-area: main-navigation;
+        position: relative;
+        /* margin-bottom: 5rem;  */
+        height: auto;
+    }
+
+    .main-section {
+        grid-area: main-section;
+    }
+    
+    h2 {
+        padding-top: 0; 
+    }
+
+    .projects {
+        padding-top: 2rem;
+    }
+
+}
