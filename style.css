@@ -111,9 +111,10 @@ figure {
     grid-template-columns: 1fr 2fr;
 }
 
-figure img {
+figure .img {
     grid-area: img;
     box-shadow: var(--shadow);
+    text-decoration: none;
 }
 
 figure .content {
@@ -148,7 +149,7 @@ footer p {  /* remove white space under footer */
 
     figure {
         grid-template-areas: 
-        ' img img'
+        ' img img '
         ' content content';
 
     }
