@@ -136,6 +136,10 @@ footer {
     line-height: 100px;
 }
 
+footer p {  /* remove white space under footer */
+    margin-bottom: 0; 
+}
+
 /* Media Queries */
 @media (max-width: 1000px) {
     .main-navigation {    /* to stop main-navigation from jumping */
