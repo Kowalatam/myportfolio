@@ -25,7 +25,7 @@ img {
 h2 {
     font-size: 1.8rem;
     text-transform: uppercase;
-    padding-top: 5rem; 
+    padding-top: 2rem; 
 }
 
 hr {
@@ -65,7 +65,7 @@ hr {
 }
 
 .main-nav ul li {
-    padding-bottom: 2rem; 
+    padding-bottom: 1rem; 
     font-size: 1.3rem;
 }
 
@@ -123,8 +123,15 @@ figure .content {
     flex-direction: column;
 }
 
+.about p {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 /* Footer */
 footer {
     background-color: var(--dark);
     color: var(--light);
+    margin-top: 100px;
+    line-height: 100px;
 }
