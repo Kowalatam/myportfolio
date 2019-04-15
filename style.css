@@ -136,6 +136,9 @@ figure img {
     color: #fff;
 }
 
+.content p {
+    font-size: 1.2rem;
+}
 
 /*Experience*/
 .experiences {
