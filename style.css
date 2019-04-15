@@ -25,7 +25,7 @@ img {
 h2 {
     font-size: 1.8rem;
     text-transform: uppercase;
-    padding-top: 2.9rem; 
+    padding-top: 2rem; 
 }
 
 hr {
@@ -69,13 +69,14 @@ hr {
     font-size: 1.3rem;
 }
 
-.main-nav a, a {
+.main-nav a {
     text-decoration: none;
     color: var(--dark)
 }
 
 .social a {
     padding-left: 20px; 
+    color: var(--dark);
 }
 
 .fa-twitter , .fa-linkedin {
@@ -90,52 +91,48 @@ hr {
     grid-row-gap: 25%;
     grid-template-columns: repeat(3, 15%);
     padding-left: 27.5%;
+    justify-items: center;
 }
 
-/*Main Section */
 .main-section {
     background: #FFFCF7;
     color: var(--dark);
 }
 
-/* Projects */
-.projects {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
-
 .project {
-    margin-bottom: 30px;
+    padding-bottom: 2rem;
+    
 }
 
+figure {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-areas: 'content img';
+    grid-template-columns: 1fr 2fr;
+}
 
-.img {
-    /*grid-area: img;*/
+figure .img {
+    grid-area: img;
     box-shadow: var(--shadow);
     text-decoration: none;
-    display: inline-block;
 }
 
 figure img {
-    max-height: 220px;
     display: block;
 }
 
-.git-btn {
-    width: 140px;
-    height: 45px;
-    font-size: 1rem;
-    text-transform: uppercase;
-    background-color: #101935;
-    border-radius: 45px;
-    border: none;
-    box-shadow: 0px 15px 20px rgba(16, 25, 53, 0.4);
+.img a {
+    width: 100%;
 }
 
-.git-btn a{
-    color: #fff;
+figure .content {
+    grid-area: content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
+<<<<<<< HEAD
 .content p {
     font-size: 1.2rem;
 }
@@ -148,6 +145,8 @@ figure img {
 
 /* About */
 
+=======
+>>>>>>> 73fff12b4bcdd3c341ba29a947a7a12927029ab1
 .about p {
     padding-left: 10%;
     padding-right: 10%;
@@ -171,12 +170,12 @@ footer p {  /* remove white space under footer */
         box-sizing: border-box;
     } 
 
-    /*figure {
+    figure {
         grid-template-areas: 
         ' img img '
         ' content content';
 
-    }*/
+    }
 }
 
 @media (max-width: 600px) {
