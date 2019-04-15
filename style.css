@@ -121,6 +121,10 @@ figure img {
     display: block;
 }
 
+.img a {
+    width: 100%;
+}
+
 figure .content {
     grid-area: content;
     display: flex;
